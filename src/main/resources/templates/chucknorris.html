@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Not Implemented Yet</title>
+    <title>Joke App</title>
 </head>
 <body>
 
-Not Implemented Yet
+<h1>Here is your Chuck Norris joke:</h1>
+
+<p th:text="${joke}">joke will be here</p>
 
 </body>
 </html>
