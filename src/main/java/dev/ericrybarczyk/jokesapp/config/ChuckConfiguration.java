@@ -4,10 +4,10 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration // changed to XML-based configuration for demo purposes
 public class ChuckConfiguration {
 
-    @Bean
+    //@Bean // changed to XML-based configuration
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
